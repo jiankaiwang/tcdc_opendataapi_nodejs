@@ -96,11 +96,11 @@ After=network.target
 [Service]
 User=root
 Group=root
-ExecStart=/usr/bin/node /home/jkw/opendata-redis/app.js > /var/tmp/odredisapi.log & 2>&1
+ExecStart=/usr/bin/node /home/user/tcdc_opendataapi_nodejs/app.js > /var/tmp/odredisapi.log & 2>&1
 Restart=always
 Environment=PATH=/usr/bin:/usr/local/bin
 Environment=NODE_ENV=production
-WorkingDirectory=/home/jkw/opendata-redis
+WorkingDirectory=/home/user/tcdc_opendataapi_nodejs
 
 [Install]
 WantedBy=multi-user.target

@@ -1,0 +1,27 @@
+{
+  "name": "cdcdengue-redis",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "3.2.6",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "querystring": "^0.2.0",
+    "redis": "^2.7.1",
+    "request": "^2.81.0",
+    "url": "^0.11.0"
+  },
+  "description": "Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)\r  ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))",
+  "main": "app.js",
+  "devDependencies": {},
+  "keywords": [
+    "api",
+    "dengue"
+  ],
+  "author": "JKW",
+  "license": "MIT"
+}
